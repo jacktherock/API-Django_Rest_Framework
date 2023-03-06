@@ -1,0 +1,21 @@
+** API Endpoints **
+
+1. GET /api/
+
+2. GET /api/all/
+
+3. POST /api/create/
+    --> Insert Json Content in Body
+
+4. GET /api/all/?id=id_name/
+    --> Insert id in Query Parameters
+
+5. GET /api/all/?activity=activity_name/
+    --> Insert activity in Query Parameters (Case sensitive)
+
+
+6. POST /api/update/id_name/
+    --> Insert Json Content in Body
+    --> Update id in URL & in JSON (if exists)
+
+7. DELETE /api/track/pk/delete/
