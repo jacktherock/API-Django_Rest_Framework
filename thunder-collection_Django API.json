@@ -1,0 +1,129 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Django API",
+    "dateExported": "2023-03-06T21:44:27.609Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "145adcd6-acc0-44b8-8abd-62a2504b5aa4",
+            "colId": "63728044-cbc4-4f80-8270-ec2646335a62",
+            "containerId": "",
+            "name": "Get API Overview",
+            "url": "http://127.0.0.1:8000/api/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-06T21:25:02.291Z",
+            "modified": "2023-03-06T21:25:02.291Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "12b8ea93-0a5f-4724-8a18-d4aaaa5ea9fb",
+            "colId": "63728044-cbc4-4f80-8270-ec2646335a62",
+            "containerId": "",
+            "name": "Get All Data",
+            "url": "http://127.0.0.1:8000/api/all/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-03-06T21:25:28.291Z",
+            "modified": "2023-03-06T21:25:28.291Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1b40df95-d1b7-4ad8-94e2-b022f2216d24",
+            "colId": "63728044-cbc4-4f80-8270-ec2646335a62",
+            "containerId": "",
+            "name": "Create New Data",
+            "url": "http://127.0.0.1:8000/api/create/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-06T21:26:45.785Z",
+            "modified": "2023-03-06T21:26:45.785Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3,\n  \"activity\": \"Running\",\n  \"probability\": \"0.44\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "afc0aa00-bbad-4018-8424-a0d060bfade5",
+            "colId": "63728044-cbc4-4f80-8270-ec2646335a62",
+            "containerId": "",
+            "name": "Get Data by Id",
+            "url": "http://127.0.0.1:8000/api/all/?id=1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-06T21:27:26.170Z",
+            "modified": "2023-03-06T21:32:07.570Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "abebf81d-f098-46b2-8c6c-99ef98ecfae4",
+            "colId": "63728044-cbc4-4f80-8270-ec2646335a62",
+            "containerId": "",
+            "name": "Get Data by Activity",
+            "url": "http://127.0.0.1:8000/api/all/?activity=Sitting",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-06T21:28:28.730Z",
+            "modified": "2023-03-06T21:32:28.722Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "activity",
+                    "value": "Sitting",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c8b50afa-db38-4b02-a828-98cb8788b961",
+            "colId": "63728044-cbc4-4f80-8270-ec2646335a62",
+            "containerId": "",
+            "name": "Update Data",
+            "url": "http://127.0.0.1:8000/api/update/1/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-03-06T21:29:58.482Z",
+            "modified": "2023-03-06T21:33:53.710Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"activity\": \"Running\",\n  \"probability\": \"0.44\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "23fb88df-bae8-4e5e-8fcb-1b785fd694c8",
+            "colId": "63728044-cbc4-4f80-8270-ec2646335a62",
+            "containerId": "",
+            "name": "Delete Data",
+            "url": "http://127.0.0.1:8000/api/track/1/delete/",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-03-06T21:31:19.833Z",
+            "modified": "2023-03-06T21:34:25.332Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

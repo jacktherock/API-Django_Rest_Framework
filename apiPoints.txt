@@ -1,0 +1,21 @@
+** API **
+
+1. GET http://127.0.0.1:8000/api/
+
+2. GET http://127.0.0.1:8000/api/all/
+
+3. POST http://127.0.0.1:8000/api/create/
+    --> Insert Json Content in Body
+
+4. GET http://127.0.0.1:8000/api/all/?id=id_name/
+    --> Insert id in Query Parameters
+
+5. GET http://127.0.0.1:8000/api/all/?activity=activity_name/
+    --> Insert activity in Query Parameters (Case sensitive)
+
+
+6. POST http://127.0.0.1:8000/api/update/id_name/
+    --> Insert Json Content in Body
+    --> Update id in URL & in JSON (if exists)
+
+7. DELETE http://127.0.0.1:8000/api/track/pk/delete/
